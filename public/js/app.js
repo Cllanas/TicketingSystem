@@ -2262,6 +2262,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     featureScroll: function featureScroll(evt, el) {
@@ -39268,6 +39269,8 @@ var render = function() {
             ]
           )
         ]),
+        _vm._v(" "),
+        _c("h1", [_vm._v("test")]),
         _vm._v(" "),
         _c("div", { staticClass: "card card-Icon" }, [
           _c("i", { staticClass: "fas fa-hiking fa-5x" }),
