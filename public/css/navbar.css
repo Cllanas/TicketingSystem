@@ -1,0 +1,58 @@
+
+html{
+    height:100%; 
+}
+/*Nav display*/
+.head{
+    height: 100%;
+    width: 100%;
+    background: url(../images/networking.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #464646;
+}
+body{
+    height: 100vh;
+}
+
+.search{
+    border-color: #F0E68C !important;
+    color:#F0E68C !important;
+}
+.search:hover{
+    background-color: #F0E68C !important;
+    color: #464646 !important;
+}
+.font{
+    font: 14pt;
+    color: #f2f2f2;
+    font-style: none;
+}
+.font:hover{
+    color: #F0E68C !important;
+    font-style: none;
+}
+.container{
+    top: 25%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+}
+.btn-color{
+    border: 3px solid #2F4F4F !important;
+    color: #2F4F4F !important;
+}
+.btn-color:hover{
+    background-color: #2F4F4F;
+    color: #F0E68C !important;
+}
+  .card-color{
+    font-size: 14pt;
+    color: #F0E68C;
+    background-color:#2F4F4F !important;
+  }
+  .btn-link{
+      color: black !important;
+  }
