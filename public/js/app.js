@@ -2204,6 +2204,97 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -6788,7 +6879,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.dashboard[data-v-040e2ab9]  {\r\n    -webkit-box-flex: 1;\r\n            flex: 1;\r\ndisplay:-webkit-box;\r\ndisplay:flex;\n}\n.side-bar[data-v-040e2ab9]{\r\n  \r\n  min-height: 900px;\r\n  height: 100%; /* Full-height: remove this if you want \"auto\" height */\r\n  z-index: 1; /* Stay on top */\r\n  padding-right: 100px;\r\n  margin-top: 20px;\r\n  margin-left: 20px;\r\n  width: 8%;\r\n  background-color: #111; /* Black */\r\n  overflow-x: hidden; /* Disable horizontal scroll */\n}\n.dashboard-buttons[data-v-040e2ab9]{\r\n margin-left: 20px;\r\n  float: left;\r\n width: 92%;\r\ndisplay: -webkit-box;\r\ndisplay: flex;\r\nmargin-top: 20px;\n}\n.priority[data-v-040e2ab9]{\r\n   margin-left: 20px;\r\ndisplay: -webkit-box;\r\ndisplay: flex;\r\nmargin-top: 20px;\r\n width: 92%;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.dashboard[data-v-040e2ab9]{\r\n  margin-top: 3%;\r\n  -webkit-box-flex: 1;\r\n          flex: 1;\r\n  display:-webkit-box;\r\n  display:flex;\n}\n.btn[data-v-040e2ab9]:hover{\r\n  color: #D7C49EFF;\r\n   background-color: #343148FF;\n}\n.dashboard-person-info[data-v-040e2ab9]{\r\n  list-style: none;\r\n  margin: 0;\r\n  padding-left: 5px;\n}\n.icon[data-v-040e2ab9]{\r\n  background-color: black;\r\n  height: 10rem;\r\n  width: 20rem;\n}\n.dashboard-search[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  margin-top: 50px;\n}\n.btn-dropdown-color[data-v-040e2ab9]{\r\n  border: 2px solid #343148FF;\r\n  color: #343148FF;\n}\n.dashboard-link[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  color:  #343148FF;\n}\n.ticket-header[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 10px;\n}\n.ticket-my[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 17px;\n}\n.side-bar[data-v-040e2ab9]{\r\n  min-height:760px;\r\n  height: 100%; \r\n  z-index: 1; /* Stay on top */\r\n  padding-right: 100px;\r\n  margin-top: 20px;\r\n  margin-left: 20px;\r\n  width: 10%;\r\n  background-color: #D7C49EFF;\r\n  color: #343148FF;\r\n  overflow-x: hidden; /* Disable horizontal scroll */\n}\n.table[data-v-040e2ab9]{\r\n  background-color:#F2F7FB;\r\n  color: black;\n}\n.table-headers[data-v-040e2ab9]{\r\n  background-color: #005D68;\r\n  color: #F2F7FB;\n}\n.table-row[data-v-040e2ab9]:hover{\r\n  background-color: #5CD89F;\r\n  color: #D7C49EFF;\n}\n.quick[data-v-040e2ab9]:hover{\r\n  background-color: #343148FF;\r\n  color:#D6ED17FF;\n}\n.fa-binoculars[data-v-040e2ab9]{\r\n  color:#D6ED17FF;\n}\n.dashboard-buttons[data-v-040e2ab9]{\r\n  margin-left: 20px;\r\n  float: left;\r\n  width: 92%;\r\n  display: -webkit-box;\r\n  display: flex;\r\n  margin-top: 20px;\n}\n.priority[data-v-040e2ab9]{\r\n  margin-left: 20px;\r\n  display: -webkit-box;\r\n  display: flex;\r\n  width: 92%;\n}\n.card-layout[data-v-040e2ab9]{\r\n  \r\n  display: -webkit-box;\r\n  \r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  -webkit-box-pack: justify;\r\n          justify-content: space-between;\n}\n.card[data-v-040e2ab9]{\r\n  background-color: #EFE1D4;\r\n  -webkit-box-flex: 0;\r\n          flex: 0 1 15%;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -38956,13 +39047,19 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "dashboard" }, [
       _c("div", { staticClass: " side-bar" }, [
-        _c("a", { attrs: { href: "#Profile" } }, [
-          _vm._v(
-            "Profile (Picture, ID, Role, chain of leadership, contact number and email)"
-          )
+        _c("div", { staticClass: "icon" }),
+        _vm._v(" "),
+        _c("ul", { staticClass: "dashboard-person-info" }, [
+          _c("li", [_vm._v("ID: ")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Reports to: ")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Role: ")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Email: ")])
         ]),
         _vm._v(" "),
-        _c("form", { staticClass: "form-inline my-2 my-sm-0" }, [
+        _c("form", { staticClass: "form-inline dashboard-search" }, [
           _c("input", {
             staticClass: "form-control mr-sm-2",
             attrs: {
@@ -38970,25 +39067,61 @@ var staticRenderFns = [
               placeholder: "Search",
               "aria-label": "Search"
             }
-          })
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "dropdown" }, [
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-dropdown-color dropdown-toggle mr-sm-2",
+                attrs: {
+                  type: "button",
+                  id: "dropdownMenuButton",
+                  "data-toggle": "dropdown",
+                  "aria-haspopup": "true",
+                  "aria-expanded": "false"
+                }
+              },
+              [_vm._v("\r\n    Search Options\r\n  ")]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "dropdown-menu",
+                attrs: { "aria-labelledby": "dropdownMenuButton" }
+              },
+              [
+                _c(
+                  "a",
+                  { staticClass: "dropdown-item", attrs: { href: "#" } },
+                  [_vm._v("Customer")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { staticClass: "dropdown-item", attrs: { href: "#" } },
+                  [_vm._v("Service Request")]
+                )
+              ]
+            )
+          ])
         ]),
         _vm._v(" "),
-        _c("a", { attrs: { href: "#services" } }, [
-          _vm._v("View General Queue")
-        ]),
-        _vm._v(" "),
-        _c("a", { attrs: { href: "#clients" } }, [_vm._v("Clients")]),
-        _vm._v(" "),
-        _c("a", { attrs: { href: "#contact" } }, [_vm._v("Contact")])
+        _c("a", { staticClass: "dashboard-link", attrs: { href: "#Queue" } }, [
+          _vm._v("View All Queue")
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "container-fluid" }, [
-        _c("h1", [_vm._v("Team Ticket Queue")]),
+        _c("h1", { staticClass: "ticket-header" }, [
+          _vm._v("Team Ticket Queue")
+        ]),
         _vm._v(" "),
         _c("div", { staticClass: " priority" }, [
-          _c("table", { staticClass: "table table-striped table-dark" }, [
+          _c("table", { staticClass: "table table-striped" }, [
             _c("thead", [
-              _c("tr", [
+              _c("tr", { staticClass: "table-headers" }, [
                 _c("th", { attrs: { scope: "col" } }, [
                   _vm._v(" #Service Request")
                 ]),
@@ -39000,14 +39133,16 @@ var staticRenderFns = [
                 _c("th", { attrs: { scope: "col" } }, [_vm._v("Owned")]),
                 _vm._v(" "),
                 _c("th", { attrs: { scope: "col" } }, [
-                  _vm._v("Ticket Status")
-                ]),
-                _vm._v(" "),
-                _c("th", { attrs: { scope: "col" } }, [
                   _vm._v("Parent Category")
                 ]),
                 _vm._v(" "),
-                _c("th", { attrs: { scope: "col" } }, [_vm._v("Description")]),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Title")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [
+                  _vm._v("Quick View Description ("),
+                  _c("i", { staticClass: "fas fa-binoculars" }),
+                  _vm._v(")")
+                ]),
                 _vm._v(" "),
                 _c("th", { attrs: { scope: "col" } }, [
                   _vm._v("Assigned team")
@@ -39022,32 +39157,178 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("tbody", [
-              _c("tr", [
+              _c("tr", { staticClass: "table-row" }, [
                 _c("th", { attrs: { scope: "row" } }, [_vm._v("1")]),
                 _vm._v(" "),
                 _c("td", [_vm._v("Mark")]),
                 _vm._v(" "),
                 _c("td", [_vm._v("Otto")]),
                 _vm._v(" "),
-                _c("td", [_vm._v("@mdo")])
+                _c("td", [_vm._v("@mdo")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", { staticClass: "quick" }, [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")])
               ]),
               _vm._v(" "),
-              _c("tr", [
+              _c("tr", { staticClass: "table-row" }, [
                 _c("th", { attrs: { scope: "row" } }, [_vm._v("2")]),
                 _vm._v(" "),
                 _c("td", [_vm._v("Jacob")]),
                 _vm._v(" "),
                 _c("td", [_vm._v("Thornton")]),
                 _vm._v(" "),
-                _c("td", [_vm._v("@fat")])
+                _c("td", [_vm._v("@fat")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", { staticClass: "quick" }, [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")])
               ]),
               _vm._v(" "),
-              _c("tr", [
+              _c("tr", { staticClass: "table-row" }, [
                 _c("th", { attrs: { scope: "row" } }, [_vm._v("3")]),
                 _vm._v(" "),
                 _c("td", [_vm._v("Larry")]),
                 _vm._v(" "),
                 _c("td", [_vm._v("the Bird")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", { staticClass: "quick" }, [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("h1", { staticClass: "ticket-my" }, [_vm._v("My Ticket Queue")]),
+        _vm._v(" "),
+        _c("div", { staticClass: " priority" }, [
+          _c("table", { staticClass: "table table-striped" }, [
+            _c("thead", [
+              _c("tr", { staticClass: "table-headers" }, [
+                _c("th", { attrs: { scope: "col" } }, [
+                  _vm._v(" #Service Request")
+                ]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Priority")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Customer")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Owned")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [
+                  _vm._v("Parent Category")
+                ]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Title")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [
+                  _vm._v("Quick View Description ("),
+                  _c("i", { staticClass: "fas fa-binoculars" }),
+                  _vm._v(")")
+                ]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [
+                  _vm._v("Assigned team")
+                ]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Created Date")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [
+                  _vm._v("Resolution Date")
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("tbody", [
+              _c("tr", { staticClass: "table-row" }, [
+                _c("th", { attrs: { scope: "row" } }, [_vm._v("1")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("Mark")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("Otto")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@mdo")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", { staticClass: "quick" }, [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")])
+              ]),
+              _vm._v(" "),
+              _c("tr", { staticClass: "table-row" }, [
+                _c("th", { attrs: { scope: "row" } }, [_vm._v("2")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("Jacob")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("Thornton")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@fat")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", { staticClass: "quick" }, [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")])
+              ]),
+              _vm._v(" "),
+              _c("tr", { staticClass: "table-row" }, [
+                _c("th", { attrs: { scope: "row" } }, [_vm._v("3")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("Larry")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("the Bird")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", { staticClass: "quick" }, [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
+                _vm._v(" "),
+                _c("td", [_vm._v("@twitter")]),
                 _vm._v(" "),
                 _c("td", [_vm._v("@twitter")])
               ])
@@ -39057,8 +39338,8 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "dashboard-buttons " }, [
           _c("div", { staticClass: "card-group  card-group-position" }, [
-            _c("div", { staticClass: "card-columns" }, [
-              _c("div", { staticClass: "card " }, [
+            _c("div", { staticClass: "card-columns card-layout" }, [
+              _c("div", { staticClass: "card" }, [
                 _c("div", { staticClass: "card-body" }, [
                   _c("h5", { staticClass: "card-title" }, [
                     _vm._v("My Ticket's Status")
