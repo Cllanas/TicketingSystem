@@ -13,6 +13,7 @@
   </ul>
 <form class="form-inline dashboard-search">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <br>
       <div class="dropdown">
   <button class="btn btn-dropdown-color dropdown-toggle mr-sm-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Search Options
@@ -85,7 +86,7 @@
 </table>
 </div>
 
-   <h1 class="ticket-my">My Ticket Queue</h1>
+<h1 class="ticket-my">My Ticket Queue</h1>
 <div class=" priority">
  <table class="table table-striped">
   <thead>
@@ -99,8 +100,7 @@
        <th scope="col">Quick View Description (<i class="fas fa-binoculars"></i>)</th> 
       <th scope="col">Assigned team</th>
       <th scope="col">Created Date</th>
-      <th scope="col">Resolution Date</th>  
-      
+      <th scope="col">Resolution Date</th>       
     </tr>
   </thead>
   <tbody>
@@ -144,7 +144,6 @@
 </table>
 </div>
 
-<div class="dashboard-buttons ">
     <div class="card-group  card-group-position">
     <div class="card-columns card-layout">
       <div class="card">
@@ -191,7 +190,6 @@
       </div>
     </div>
     </div>
-  </div>
 </div>
    </section>
 </template>
@@ -218,7 +216,8 @@ export default {
 .icon{
   background-color: black;
   height: 10rem;
-  width: 20rem;
+  min-width: 300px;
+ 
 }
 .dashboard-search{
   padding-left: 5px;
@@ -241,57 +240,44 @@ export default {
   padding-left: 17px;
 }
 .side-bar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   min-height:760px;
   height: 100%; 
   z-index: 1; /* Stay on top */
-  padding-right: 100px;
   margin-top: 20px;
   margin-left: 20px;
-  width: 10%;
-  background-color: #D7C49EFF;
+  min-width: 300px;
+  position: relative;
+  background-color: #EFE1D4;
   color: #343148FF;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
 }
 .table{
-  background-color:#F2F7FB;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color:#E3E2DF;
   color: black;
 }
 .table-headers{
-  background-color: #005D68;
-  color: #F2F7FB;
-}
-.table-row:hover{
-  background-color: #5CD89F;
-  color: #D7C49EFF;
-}
- .quick:hover{
   background-color: #343148FF;
-  color:#D6ED17FF;
+  color: #EFE1D4;
 }
-
 .fa-binoculars{
   color:#D6ED17FF;
 }
-.dashboard-buttons{
-  margin-left: 20px;
-  float: left;
-  width: 92%;
-  display: flex;
-  margin-top: 20px;
-}
-
 .priority{
   margin-left: 20px;
-  display: flex;
-  width: 92%;
+  width: 99%;
 }
 .card-layout{
-  
+  width: 99%;
+  margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;  
 }
 .card{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #EFE1D4;
   flex: 0 1 15%;
 }

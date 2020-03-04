@@ -2293,8 +2293,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -6879,7 +6877,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.dashboard[data-v-040e2ab9]{\r\n  margin-top: 3%;\r\n  -webkit-box-flex: 1;\r\n          flex: 1;\r\n  display:-webkit-box;\r\n  display:flex;\n}\n.btn[data-v-040e2ab9]:hover{\r\n  color: #D7C49EFF;\r\n   background-color: #343148FF;\n}\n.dashboard-person-info[data-v-040e2ab9]{\r\n  list-style: none;\r\n  margin: 0;\r\n  padding-left: 5px;\n}\n.icon[data-v-040e2ab9]{\r\n  background-color: black;\r\n  height: 10rem;\r\n  width: 20rem;\n}\n.dashboard-search[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  margin-top: 50px;\n}\n.btn-dropdown-color[data-v-040e2ab9]{\r\n  border: 2px solid #343148FF;\r\n  color: #343148FF;\n}\n.dashboard-link[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  color:  #343148FF;\n}\n.ticket-header[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 10px;\n}\n.ticket-my[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 17px;\n}\n.side-bar[data-v-040e2ab9]{\r\n  min-height:760px;\r\n  height: 100%; \r\n  z-index: 1; /* Stay on top */\r\n  padding-right: 100px;\r\n  margin-top: 20px;\r\n  margin-left: 20px;\r\n  width: 10%;\r\n  background-color: #D7C49EFF;\r\n  color: #343148FF;\r\n  overflow-x: hidden; /* Disable horizontal scroll */\n}\n.table[data-v-040e2ab9]{\r\n  background-color:#F2F7FB;\r\n  color: black;\n}\n.table-headers[data-v-040e2ab9]{\r\n  background-color: #005D68;\r\n  color: #F2F7FB;\n}\n.table-row[data-v-040e2ab9]:hover{\r\n  background-color: #5CD89F;\r\n  color: #D7C49EFF;\n}\n.quick[data-v-040e2ab9]:hover{\r\n  background-color: #343148FF;\r\n  color:#D6ED17FF;\n}\n.fa-binoculars[data-v-040e2ab9]{\r\n  color:#D6ED17FF;\n}\n.dashboard-buttons[data-v-040e2ab9]{\r\n  margin-left: 20px;\r\n  float: left;\r\n  width: 92%;\r\n  display: -webkit-box;\r\n  display: flex;\r\n  margin-top: 20px;\n}\n.priority[data-v-040e2ab9]{\r\n  margin-left: 20px;\r\n  display: -webkit-box;\r\n  display: flex;\r\n  width: 92%;\n}\n.card-layout[data-v-040e2ab9]{\r\n  \r\n  display: -webkit-box;\r\n  \r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  -webkit-box-pack: justify;\r\n          justify-content: space-between;\n}\n.card[data-v-040e2ab9]{\r\n  background-color: #EFE1D4;\r\n  -webkit-box-flex: 0;\r\n          flex: 0 1 15%;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.dashboard[data-v-040e2ab9]{\r\n  margin-top: 3%;\r\n  -webkit-box-flex: 1;\r\n          flex: 1;\r\n  display:-webkit-box;\r\n  display:flex;\n}\n.btn[data-v-040e2ab9]:hover{\r\n  color: #D7C49EFF;\r\n   background-color: #343148FF;\n}\n.dashboard-person-info[data-v-040e2ab9]{\r\n  list-style: none;\r\n  margin: 0;\r\n  padding-left: 5px;\n}\n.icon[data-v-040e2ab9]{\r\n  background-color: black;\r\n  height: 10rem;\r\n  min-width: 300px;\n}\n.dashboard-search[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  margin-top: 50px;\n}\n.btn-dropdown-color[data-v-040e2ab9]{\r\n  border: 2px solid #343148FF;\r\n  color: #343148FF;\n}\n.dashboard-link[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  color:  #343148FF;\n}\n.ticket-header[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 10px;\n}\n.ticket-my[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 17px;\n}\n.side-bar[data-v-040e2ab9]{\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  min-height:760px;\r\n  height: 100%; \r\n  z-index: 1; /* Stay on top */\r\n  margin-top: 20px;\r\n  margin-left: 20px;\r\n  min-width: 300px;\r\n  position: relative;\r\n  background-color: #EFE1D4;\r\n  color: #343148FF;\r\n  overflow-x: hidden;\n}\n.table[data-v-040e2ab9]{\r\n  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);\r\n  background-color:#E3E2DF;\r\n  color: black;\n}\n.table-headers[data-v-040e2ab9]{\r\n  background-color: #343148FF;\r\n  color: #EFE1D4;\n}\n.fa-binoculars[data-v-040e2ab9]{\r\n  color:#D6ED17FF;\n}\n.priority[data-v-040e2ab9]{\r\n  margin-left: 20px;\r\n  width: 99%;\n}\n.card-layout[data-v-040e2ab9]{\r\n  width: 99%;\r\n  margin-left: 20px;\r\n  display: -webkit-box;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  -webkit-box-pack: justify;\r\n          justify-content: space-between;\n}\n.card[data-v-040e2ab9]{\r\n  \r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  background-color: #EFE1D4;\r\n  -webkit-box-flex: 0;\r\n          flex: 0 1 15%;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -39069,6 +39067,8 @@ var staticRenderFns = [
             }
           }),
           _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
           _c("div", { staticClass: "dropdown" }, [
             _c(
               "button",
@@ -39336,123 +39336,121 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "dashboard-buttons " }, [
-          _c("div", { staticClass: "card-group  card-group-position" }, [
-            _c("div", { staticClass: "card-columns card-layout" }, [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h5", { staticClass: "card-title" }, [
-                    _vm._v("My Ticket's Status")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "* Amount of Ticket pending  *Amount nearing deadline *Reopened (be shown as graph with ticket numbers)"
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _c("small", { staticClass: "text-muted" }, [
-                      _vm._v("Last updated 3 mins ago")
-                    ])
+        _c("div", { staticClass: "card-group  card-group-position" }, [
+          _c("div", { staticClass: "card-columns card-layout" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v("My Ticket's Status")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "* Amount of Ticket pending  *Amount nearing deadline *Reopened (be shown as graph with ticket numbers)"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("Last updated 3 mins ago")
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h5", { staticClass: "card-title" }, [
-                    _vm._v("Team Average Feedback Rating")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "This is a wider card with supporting text below as a natural lead-in to additional content.    This content is a little bit longer."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _c("small", { staticClass: "text-muted" }, [
-                      _vm._v("Last updated 3 mins ago")
-                    ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v("Team Average Feedback Rating")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.    This content is a little bit longer."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("Last updated 3 mins ago")
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h5", { staticClass: "card-title" }, [
-                    _vm._v("Ticket Without Owners")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(" *Service request numbers")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _c("small", { staticClass: "text-muted" }, [
-                      _vm._v("Last updated 3 mins ago")
-                    ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v("Ticket Without Owners")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(" *Service request numbers")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("Last updated 3 mins ago")
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h5", { staticClass: "card-title" }, [
-                    _vm._v("Completed Monthly tickets")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "This is a wider card with supporting text below as a natural lead-in to additional content.    This content is a little bit longer."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _c("small", { staticClass: "text-muted" }, [
-                      _vm._v("Last updated 3 mins ago")
-                    ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v("Completed Monthly tickets")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.    This content is a little bit longer."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("Last updated 3 mins ago")
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h5", { staticClass: "card-title" }, [
-                    _vm._v("My submitted tickets")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "Service Request nubmers (hover: give popup for short description)"
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _c("small", { staticClass: "text-muted" }, [
-                      _vm._v("Last updated 3 mins ago")
-                    ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v("My submitted tickets")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "Service Request nubmers (hover: give popup for short description)"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("Last updated 3 mins ago")
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c("h5", { staticClass: "card-title" }, [
-                    _vm._v("Breached Deadline Tickets")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "This is a wider card with supporting text below as a natural lead-in to additional content.    This content is a little bit longer."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text" }, [
-                    _c("small", { staticClass: "text-muted" }, [
-                      _vm._v("Last updated 3 mins ago")
-                    ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v("Breached Deadline Tickets")
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.    This content is a little bit longer."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "card-text" }, [
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v("Last updated 3 mins ago")
                   ])
                 ])
               ])
