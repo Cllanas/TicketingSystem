@@ -3,7 +3,7 @@
 <template>
 <section class="dashboard">
 <div class=" side-bar">
-  <div class="icon"> </div>
+  <div class="icon"><img class="profile" src="../images/person-1824144_960_720.png" style="width:150px;"></div>
 
   <ul class="dashboard-person-info"> 
     <li>ID: </li>
@@ -213,8 +213,11 @@ export default {
   margin: 0;
   padding-left: 5px;
 }
+.profile{
+  margin-top: 10px;
+  margin-left: 50px; 
+}
 .icon{
-  background-color: black;
   height: 10rem;
   min-width: 300px;
  
@@ -276,7 +279,6 @@ export default {
   justify-content: space-between;  
 }
 .card{
-  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #EFE1D4;
   flex: 0 1 15%;

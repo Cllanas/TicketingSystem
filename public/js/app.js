@@ -6877,7 +6877,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.dashboard[data-v-040e2ab9]{\r\n  margin-top: 3%;\r\n  -webkit-box-flex: 1;\r\n          flex: 1;\r\n  display:-webkit-box;\r\n  display:flex;\n}\n.btn[data-v-040e2ab9]:hover{\r\n  color: #D7C49EFF;\r\n   background-color: #343148FF;\n}\n.dashboard-person-info[data-v-040e2ab9]{\r\n  list-style: none;\r\n  margin: 0;\r\n  padding-left: 5px;\n}\n.icon[data-v-040e2ab9]{\r\n  background-color: black;\r\n  height: 10rem;\r\n  min-width: 300px;\n}\n.dashboard-search[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  margin-top: 50px;\n}\n.btn-dropdown-color[data-v-040e2ab9]{\r\n  border: 2px solid #343148FF;\r\n  color: #343148FF;\n}\n.dashboard-link[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  color:  #343148FF;\n}\n.ticket-header[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 10px;\n}\n.ticket-my[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 17px;\n}\n.side-bar[data-v-040e2ab9]{\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  min-height:760px;\r\n  height: 100%; \r\n  z-index: 1; /* Stay on top */\r\n  margin-top: 20px;\r\n  margin-left: 20px;\r\n  min-width: 300px;\r\n  position: relative;\r\n  background-color: #EFE1D4;\r\n  color: #343148FF;\r\n  overflow-x: hidden;\n}\n.table[data-v-040e2ab9]{\r\n  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);\r\n  background-color:#E3E2DF;\r\n  color: black;\n}\n.table-headers[data-v-040e2ab9]{\r\n  background-color: #343148FF;\r\n  color: #EFE1D4;\n}\n.fa-binoculars[data-v-040e2ab9]{\r\n  color:#D6ED17FF;\n}\n.priority[data-v-040e2ab9]{\r\n  margin-left: 20px;\r\n  width: 99%;\n}\n.card-layout[data-v-040e2ab9]{\r\n  width: 99%;\r\n  margin-left: 20px;\r\n  display: -webkit-box;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  -webkit-box-pack: justify;\r\n          justify-content: space-between;\n}\n.card[data-v-040e2ab9]{\r\n  \r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  background-color: #EFE1D4;\r\n  -webkit-box-flex: 0;\r\n          flex: 0 1 15%;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n.dashboard[data-v-040e2ab9]{\r\n  margin-top: 3%;\r\n  -webkit-box-flex: 1;\r\n          flex: 1;\r\n  display:-webkit-box;\r\n  display:flex;\n}\n.btn[data-v-040e2ab9]:hover{\r\n  color: #D7C49EFF;\r\n   background-color: #343148FF;\n}\n.dashboard-person-info[data-v-040e2ab9]{\r\n  list-style: none;\r\n  margin: 0;\r\n  padding-left: 5px;\n}\n.profile[data-v-040e2ab9]{\r\n  margin-top: 10px;\r\n  margin-left: 50px;\n}\n.icon[data-v-040e2ab9]{\r\n  height: 10rem;\r\n  min-width: 300px;\n}\n.dashboard-search[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  margin-top: 50px;\n}\n.btn-dropdown-color[data-v-040e2ab9]{\r\n  border: 2px solid #343148FF;\r\n  color: #343148FF;\n}\n.dashboard-link[data-v-040e2ab9]{\r\n  padding-left: 5px;\r\n  color:  #343148FF;\n}\n.ticket-header[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 10px;\n}\n.ticket-my[data-v-040e2ab9]{\r\n  padding-top: 7px;\r\n  padding-left: 17px;\n}\n.side-bar[data-v-040e2ab9]{\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  min-height:760px;\r\n  height: 100%; \r\n  z-index: 1; /* Stay on top */\r\n  margin-top: 20px;\r\n  margin-left: 20px;\r\n  min-width: 300px;\r\n  position: relative;\r\n  background-color: #EFE1D4;\r\n  color: #343148FF;\r\n  overflow-x: hidden;\n}\n.table[data-v-040e2ab9]{\r\n  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);\r\n  background-color:#E3E2DF;\r\n  color: black;\n}\n.table-headers[data-v-040e2ab9]{\r\n  background-color: #343148FF;\r\n  color: #EFE1D4;\n}\n.fa-binoculars[data-v-040e2ab9]{\r\n  color:#D6ED17FF;\n}\n.priority[data-v-040e2ab9]{\r\n  margin-left: 20px;\r\n  width: 99%;\n}\n.card-layout[data-v-040e2ab9]{\r\n  width: 99%;\r\n  margin-left: 20px;\r\n  display: -webkit-box;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  -webkit-box-pack: justify;\r\n          justify-content: space-between;\n}\n.card[data-v-040e2ab9]{\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  background-color: #EFE1D4;\r\n  -webkit-box-flex: 0;\r\n          flex: 0 1 15%;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -39045,7 +39045,13 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "dashboard" }, [
       _c("div", { staticClass: " side-bar" }, [
-        _c("div", { staticClass: "icon" }),
+        _c("div", { staticClass: "icon" }, [
+          _c("img", {
+            staticClass: "profile",
+            staticStyle: { width: "150px" },
+            attrs: { src: __webpack_require__(/*! ../images/person-1824144_960_720.png */ "./resources/js/images/person-1824144_960_720.png") }
+          })
+        ]),
         _vm._v(" "),
         _c("ul", { staticClass: "dashboard-person-info" }, [
           _c("li", [_vm._v("ID: ")]),
@@ -52456,6 +52462,17 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 module.exports = "/images/notebook-1280538_1920.jpg?a72264f4eeb1b74f17c77a18b73f0c97";
+
+/***/ }),
+
+/***/ "./resources/js/images/person-1824144_960_720.png":
+/*!********************************************************!*\
+  !*** ./resources/js/images/person-1824144_960_720.png ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/person-1824144_960_720.png?7e3ae8a28d57417b794d88b57c74c95e";
 
 /***/ }),
 
