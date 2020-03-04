@@ -14,7 +14,7 @@ class ContactController extends Controller
     public function index()
     {
         //
-        return view('Contact.index');
+    
     }
 
     /**
@@ -25,6 +25,7 @@ class ContactController extends Controller
     public function create()
     {
         //
+        return view('Contact.index');
     }
 
     /**

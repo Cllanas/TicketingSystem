@@ -8,7 +8,7 @@ The program is structured to interact with each specified nth div. As a result m
    <div class="container-fluid back " id="contact-block" >
       <h5 class="font">We would love to understand more about your IT Support Concerns.</h5>
       <p class="font">Thank you for being our customer. Your bussiness means a lot to us. We appreciate the concerns you are brining to us.</p>
-      <a class="btn search btn-lg "  role="button" href="/contact" >Contact Support</a>
+      <a class="btn search btn-lg "  role="button" href="/contact/create" >Contact Support</a>
     </div>
   <foot></foot>
 </section> 

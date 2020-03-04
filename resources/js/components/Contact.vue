@@ -80,16 +80,20 @@ methods:{
   return true;
   }
   if (!this.name) {
-    this.errors.push('Invalid first name');
+    this.errors.push('Invalid first name.');
+    names.setAttribute("style", "border: 3px solid red; outline:none; ");
   }
   if(!this.last){
-    this.errors.push('Invalid last name');
+    this.errors.push('Invalid last name.');
+    lasts.setAttribute("style", "border: 3px solid red; outline:none; ");
   }
   if (!this.email) {
     this.errors.push('Email required.');
+    email.setAttribute("style", "border: 3px solid red; outline:none; ");
   } 
-   if (!this.text_area) {
-    this.errors.push('Invalid writing space');
+  if (!this.text_area) {
+    this.errors.push('Text needs to be entered in feedback.');
+    textArea.setAttribute("style", "border: 3px solid red; outline:none; ");
   }
   e.preventDefault();
  },
@@ -102,14 +106,14 @@ methods:{
   }
  },
   firstValid: function(event){
-  if(this.name.match(re) && this.name !=''){
+  if(this.name !=''){
     names.setAttribute("style", "border: 3px solid green; outline:none;");
   }else{
     names.setAttribute("style", "border: 3px solid red; outline:none; ");
    }
  },
   lastValid: function(event){
-  if(this.last.match(re) && this.last !=''){
+  if( this.last !=''){
       lasts.setAttribute("style", "border: 3px solid green; outline:none;");
   }else{
       lasts.setAttribute("style", "border: 3px solid red; outline:none; ");
