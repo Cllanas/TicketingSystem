@@ -6858,7 +6858,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.some-area > #contact-block[data-v-4c2584f6]{\r\n  background-color:#DCDCDC;\n}\r\n /*#ADFF2F, #F0FFFF, 2F4F4F, F0E68C*/\n.contact-header[data-v-4c2584f6]{\r\n  text-align: center;\r\n  color: #2F4F4F;\n}\ninput[data-v-4c2584f6],textarea[data-v-4c2584f6] {\r\n  outline:none !important;\r\n  outline-width: 0px !important;\r\n  box-shadow: none !important;\n}\n.star[data-v-4c2584f6]{\r\n  color:red;\n}\n.contact-space[data-v-4c2584f6]{\r\n  -webkit-box-orient: horizontal;\r\n  -webkit-box-direction: normal;\r\n          flex-direction: row;\n}\n.contact-form[data-v-4c2584f6], .contact-card[data-v-4c2584f6]{\r\n  width: 45%;\n}\n.contact-form[data-v-4c2584f6]{\r\n  float: left;\n}\n.contact-card[data-v-4c2584f6]{\r\n  float: right;\n}\r\n/*#ADFF2F #F0E68C*/\n.card-header[data-v-4c2584f6]{\r\n  background-color: #2F4F4F !important;\r\n  color: #F0E68C;\n}\r\n", ""]);
+exports.push([module.i, "\n.some-area > #contact-block[data-v-4c2584f6]{\r\n  background-color:#DCDCDC;\n}\r\n /*#ADFF2F, #F0FFFF, 2F4F4F, F0E68C*/\n.contact-header[data-v-4c2584f6]{\r\n  text-align: center;\r\n  color: black;\n}\ninput[data-v-4c2584f6],textarea[data-v-4c2584f6] {\r\n  outline:none !important;\r\n  outline-width: 0px !important;\r\n  box-shadow: none !important;\n}\n.star[data-v-4c2584f6]{\r\n  color:red;\n}\n.contact-space[data-v-4c2584f6]{\r\n  -webkit-box-orient: horizontal;\r\n  -webkit-box-direction: normal;\r\n          flex-direction: row;\n}\n.contact-form[data-v-4c2584f6], .contact-card[data-v-4c2584f6]{\r\n  width: 45%;\n}\n.contact-form[data-v-4c2584f6]{\r\n  float: left;\n}\n.contact-card[data-v-4c2584f6]{\r\n  float: right;\n}\r\n/*#ADFF2F #F0E68C*/\n.card-header[data-v-4c2584f6]{\r\n  background-color: #2F4F4F !important;\r\n  color: #F0E68C;\n}\r\n", ""]);
 
 // exports
 
@@ -38934,7 +38934,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "validationTextarea font" } }, [
-      _vm._v("Writing space "),
+      _vm._v("Feedback "),
       _c("span", { staticClass: "star" }, [_vm._v("*")])
     ])
   },
@@ -38946,7 +38946,7 @@ var staticRenderFns = [
       _c(
         "button",
         { staticClass: "btn btn-outline-success", attrs: { type: "submit" } },
-        [_vm._v("Success")]
+        [_vm._v("Submit")]
       )
     ])
   },
@@ -39554,8 +39554,6 @@ var render = function() {
             ]
           )
         ]),
-        _vm._v(" "),
-        _c("h1", [_vm._v("test")]),
         _vm._v(" "),
         _c("div", { staticClass: "card card-Icon" }, [
           _c("i", { staticClass: "fas fa-hiking fa-5x" }),

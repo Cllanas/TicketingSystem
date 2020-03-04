@@ -26,11 +26,11 @@
     <input type="email" class="form-control "   name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" v-model="email" @keyup="emailValid">
     </div>
   <div class="form-group">
-   <label for="validationTextarea font">Writing space <span class="star">*</span></label>
+   <label for="validationTextarea font">Feedback <span class="star">*</span></label>
     <textarea class="form-control "  id="textArea"  placeholder="Please enter text for review" rows="10" v-model="text_area"  @keyup="textAreaValid"  > </textarea>
   </div>
   <div class="form-group">
-  <button type="submit" class="btn btn-outline-success" >Success</button>
+  <button type="submit" class="btn btn-outline-success" >Submit</button>
   </div>
   </form> 
   </div>
@@ -133,7 +133,7 @@ methods:{
  /*#ADFF2F, #F0FFFF, 2F4F4F, F0E68C*/
 .contact-header{
   text-align: center;
-  color: #2F4F4F; 
+  color: black;
 }
 input,textarea {
   outline:none !important;

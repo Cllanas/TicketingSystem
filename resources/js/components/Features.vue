@@ -18,7 +18,7 @@
     <p class="card-text">We connect people to people that know how to solve system issues. We provide tools to gather details of the customer and their system. Your IT team will be the wizzards of your organization. </p>
   </div>
   </div> 
-  <h1>test</h1>
+
   <div class="card card-Icon">
     <i class="fas fa-hiking fa-5x" ></i>
     <div class="card-body cardAnimation"  v-scroll="featureScroll">
