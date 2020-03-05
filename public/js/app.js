@@ -2453,6 +2453,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -39911,9 +39924,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "card-body" }, [
             _c("h5", { staticClass: "card-title" }, [_vm._v("Desktop")]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-power-off" })
           ])
         ]),
         _vm._v(" "),
@@ -39929,9 +39940,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "card-body" }, [
             _c("h5", { staticClass: "card-title" }, [_vm._v("Mouse")]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-mouse" })
           ])
         ]),
         _vm._v(" "),
@@ -39939,9 +39948,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "card-body" }, [
             _c("h5", { staticClass: "card-title" }, [_vm._v("Laptop")]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-laptop" })
           ])
         ]),
         _vm._v(" "),
@@ -39951,9 +39958,7 @@ var staticRenderFns = [
               _vm._v("Internet Connection")
             ]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-wifi" })
           ])
         ]),
         _vm._v(" "),
@@ -39961,9 +39966,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "card-body" }, [
             _c("h5", { staticClass: "card-title" }, [_vm._v("Account")]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-user-circle" })
           ])
         ]),
         _vm._v(" "),
@@ -39971,49 +39974,59 @@ var staticRenderFns = [
           _c("div", { staticClass: "card-body" }, [
             _c("h5", { staticClass: "card-title" }, [_vm._v("Application")]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-sort-alpha-down" })
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
+            _c("h5", { staticClass: "card-title" }, [_vm._v("Database")]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-server" })
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Virtual Desktop")
+            ]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-sitemap" })
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Printer/Scanning")
+            ]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-print" })
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
+            _c("h5", { staticClass: "card-title" }, [_vm._v("Keyboard")]),
             _vm._v(" "),
-            _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-              _vm._v("Card subtitle")
-            ])
+            _c("i", { staticClass: "fas fa-keyboard" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [_vm._v("Mobile")]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-mobile-alt" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [_vm._v("Tablet")]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-tablet-alt" })
           ])
         ])
       ])

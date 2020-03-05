@@ -5,7 +5,7 @@
  <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Desktop</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <i class="fas fa-power-off"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -17,55 +17,68 @@
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Mouse</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+<i class="fas fa-mouse"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Laptop</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <i class="fas fa-laptop"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Internet Connection</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <i class="fas fa-wifi"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Account</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <i class="fas fa-user-circle"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Application</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <i class="fas fa-sort-alpha-down"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <h5 class="card-title">Database</h5>
+    <i class="fas fa-server"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <h5 class="card-title">Virtual Desktop</h5>
+    <i class="fas fa-sitemap"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <h5 class="card-title">Printer/Scanning</h5>
+    <i class="fas fa-print"></i>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <h5 class="card-title">Keyboard</h5>
+   <i class="fas fa-keyboard"></i>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Mobile</h5>
+   <i class="fas fa-mobile-alt"></i>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Tablet</h5>
+   <i class="fas fa-tablet-alt"></i>
   </div>
 </div>
 </div>
