@@ -114,16 +114,16 @@ methods:{
  },
   lastValid: function(event){
   if( this.last !=''){
-      lasts.setAttribute("style", "border: 3px solid green; outline:none;");
+    lasts.setAttribute("style", "border: 3px solid green; outline:none;");
   }else{
-      lasts.setAttribute("style", "border: 3px solid red; outline:none; ");
+    lasts.setAttribute("style", "border: 3px solid red; outline:none; ");
     }
    },
     textAreaValid: function(event){  
     if(this.text_area !=''){
-      textArea.setAttribute("style", "border: 3px solid green; outline:none;");
+    textArea.setAttribute("style", "border: 3px solid green; outline:none;");
     }else{
-      textArea.setAttribute("style", "border: 3px solid red; outline:none; ");
+    textArea.setAttribute("style", "border: 3px solid red; outline:none; ");
       }
    },
   }

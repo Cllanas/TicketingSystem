@@ -22,6 +22,7 @@ Vue.component('contact', require('./components/Contact.vue').default);
 Vue.component('bod', require('./components/Body.vue').default);
 Vue.component('foot', require('./components/Footer.vue').default);
 Vue.component('dash', require('./components/Dashboard.vue').default);
+Vue.component('ticket', require('./components/Ticket_Dashboard.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

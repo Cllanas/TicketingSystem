@@ -7,8 +7,11 @@
 
   <ul class="dashboard-person-info"> 
     <li>ID: </li>
-    <li>Reports to: </li>
     <li>Role: </li>
+    <li>Department: </li>
+    <li>Location: </li>
+    <li>Site ID: </li>
+    <li>Project name: </li>
     <li >Email: </li>
   </ul>
 <form class="form-inline dashboard-search">
