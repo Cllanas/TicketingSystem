@@ -2462,10 +2462,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -7049,7 +7045,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.tech[data-v-4c218a28]{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-orient: horizontal;\r\n    -webkit-box-direction: normal;\r\n            flex-direction: row;\n}\r\n", ""]);
+exports.push([module.i, "\n.ticket-creating[data-v-4c218a28]{\r\nmargin-top:3%;\n}\n.tech[data-v-4c218a28]{\r\n  display: -webkit-box;\r\n  display: flex;\r\n  -webkit-box-pack: space-evenly;\r\n          justify-content: space-evenly;\r\n  -webkit-box-orient: horizontal;\r\n  -webkit-box-direction: normal;\r\n          flex-direction: row;\n}\n.card[data-v-4c218a28]{\r\n  width: 18rem;\n}\n.card[data-v-4c218a28]:hover{\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);\r\n  cursor: pointer;\n}\n.category-header[data-v-4c218a28]{\r\n  text-align: center;\r\n  margin-bottom: 2%;\n}\r\n", ""]);
 
 // exports
 
@@ -39916,43 +39912,81 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("h2", [_vm._v("Select component for IT Request.")]),
+    return _c("div", { staticClass: "container-fluid ticket-creating" }, [
+      _c("h2", { staticClass: "category-header" }, [
+        _c("b", [_vm._v("Select Category For IT Request.")])
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "tech" }, [
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+        _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Desktop")]),
-            _vm._v(" "),
-            _c("i", { staticClass: "fas fa-power-off" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Monitor")]),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Desktop Hardware")
+            ]),
             _vm._v(" "),
             _c("i", { staticClass: "fas fa-desktop" })
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+        _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Mouse")]),
-            _vm._v(" "),
-            _c("i", { staticClass: "fas fa-mouse" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Laptop")]),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Laptop Hardware")
+            ]),
             _vm._v(" "),
             _c("i", { staticClass: "fas fa-laptop" })
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [_vm._v("Mobile")]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-mobile-alt" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [_vm._v("Telephone")]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-phone-square-alt" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [_vm._v("Printer/Faxing")]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-print" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Virtual Desktop")
+            ]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sitemap" })
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "tech" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Application Support")
+            ]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sort-alpha-down" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
             _c("h5", { staticClass: "card-title" }, [
               _vm._v("Internet Connection")
@@ -39962,71 +39996,43 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+        _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Account")]),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Information Security")
+            ]),
             _vm._v(" "),
-            _c("i", { staticClass: "fas fa-user-circle" })
+            _c("i", { staticClass: "fas fa-key" })
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+        _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Application")]),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Account Management")
+            ]),
             _vm._v(" "),
-            _c("i", { staticClass: "fas fa-sort-alpha-down" })
+            _c("i", { staticClass: "fas fa-user-lock" })
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+        _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Database")]),
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v("Database Reporting")
+            ]),
             _vm._v(" "),
             _c("i", { staticClass: "fas fa-server" })
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
+        _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
             _c("h5", { staticClass: "card-title" }, [
-              _vm._v("Virtual Desktop")
+              _vm._v("Employee Services")
             ]),
             _vm._v(" "),
-            _c("i", { staticClass: "fas fa-sitemap" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [
-              _vm._v("Printer/Scanning")
-            ]),
-            _vm._v(" "),
-            _c("i", { staticClass: "fas fa-print" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Keyboard")]),
-            _vm._v(" "),
-            _c("i", { staticClass: "fas fa-keyboard" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Mobile")]),
-            _vm._v(" "),
-            _c("i", { staticClass: "fas fa-mobile-alt" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [_vm._v("Tablet")]),
-            _vm._v(" "),
-            _c("i", { staticClass: "fas fa-tablet-alt" })
+            _c("i", { staticClass: "far fa-id-badge" })
           ])
         ])
       ])
