@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "minimist": "^1.2.5",
         "serialize-javascript": "^3.0.0"
     }
 }
