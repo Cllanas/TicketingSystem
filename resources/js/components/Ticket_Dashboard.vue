@@ -28,48 +28,54 @@
 
 
 <form>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Less than or equal to 5 people affected Priority  low</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"> 
-    *Callback Number:
-    * Location of Employee(s) Affected:
-   * Name of Employee(s) Affected:
-   * ID of Employee(s) Affected:
-    * Additional Details of Request:
-    </textarea>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Callback number:</span>
+  </div>
+  <input type="text" class="form-control">
+</div>
+<br>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">How many people are affected:</span>
+  </div>
+  <input type="text" class="form-control">
+</div>
+<br>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Has production stopped?</span>
+  </div>
+  <input type="text" class="form-control">
+</div>
+<br>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="">Time of incident reported to the business:</span>
+  </div>
+  <input type="text" class="form-control">
+</div>
+<br>
+<h5>Adding additional details improves the quality of service:</h5>
+<div class="form-group">
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="15"  placeholder="Name of employee(s) affected:
+ID of employee(s) affected:
+Location of employee(s) affected:">Name of employee(s) affected:
+
+ID of employee(s) affected:
+
+Location of employee(s) affected:
+
+System's not listed above: 
+
+Error message(s) recieved from system affected:
+</textarea>
   </div>
 </form>
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">greater than or equal to 6 but less than 14 Priority Medium</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"> 
-    *Callback Number:
-    *Location of Employee(s) Affected:
-    *Name of Employee(s) Affected:
-    *ID of Employee(s) Affected:
-    *Has Production Stopped:
-    *Additional Details of Request:
-    </textarea>
-  </div>
-</form>
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Greater than or equal to 15 Priority High All fields are required</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8">
-    Callback Number:
-    Location of Employee(s) Affected:
-    Name of Employee(s) Affected:
-    ID of Employee(s) Affected:
-    Time of Incident Reported:
-    Has Production Stopped:
-    Additional Details of Request:
-    </textarea>
-  </div>
-</form>
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 </div>
 </template>
 <script>
@@ -84,14 +90,14 @@ export default {
       {
         id: 0,
         identify: 'Desktop', 
-        title: 'Desktop Hardware',
+        title: 'Desktop',
         icon: 'fas fa-desktop fa-2x',
         status: false
       },
       {
         id: 1,
         identify: "Laptop", 
-        title: 'Laptop Hardware',
+        title: 'Laptop',
         icon: 'fas fa-laptop fa-2x',
         status: false
       },
@@ -200,6 +206,7 @@ methods:{
 
 .ticket-creating{
 margin-top:3%;
+
 }
 .tech{
   display: flex;
@@ -233,88 +240,99 @@ margin-top:3%;
 }
 
 </style>
+Desktop
+<i class="fas fa-power-off"></i>
+<i class="far fa-keyboard">
+</i><i class="fas fa-tv"></i>
+<i class="fas fa-mouse"></i>
+<i class="fas fa-volume-up"></i>
+<i class="fab fa-bluetooth-b"></i>
+<i class="fas fa-wifi"></i>
+<i class="fas fa-network-wired"></i>
+<i class="fab fa-microsoft"></i>
+<i class="fab fa-linux"></i>
+<i class="fab fa-redhat"></i>
+<i class="fab fa-centos"></i>
+<i class="far fa-save"></i>
+-------------------------------
+Laptop
+<i class="fas fa-laptop"></i>
+<i class="far fa-keyboard">
+<i class="fas fa-mouse"></i>
+<i class="fas fa-volume-up"></i>
+<i class="fab fa-bluetooth-b"></i>
+<i class="fas fa-wifi"></i>
+<i class="fas fa-network-wired"></i>
+<i class="fab fa-microsoft"></i>
+<i class="far fa-save"></i>
+-------------------------------
+Mobile
+<i class="fas fa-sync"></i>
+<i class="fab fa-google-play"></i>
+<i class="fab fa-app-store"></i>
+<i class="fas fa-qrcode"></i>
+<i class="far fa-save"></i>
+<i class="fab fa-bluetooth-b"></i>
+<i class="fas fa-wifi"></i>
+<i class="fas fa-network-wired"></i>
+-------------------------------
+Telephone
+<i class="fas fa-headset"></i>
+<i class="fas fa-volume-up"></i>
+<i class="fas fa-phone-slash"></i>
+----------------------------------
+Printer
+<i class="fas fa-print"></i>
+<i class="fas fa-power-off"></i>
+<i class="fas fa-wifi"></i>
+<i class="fas fa-lock-open"></i>
+---------------------------------
+Virtual Desktop
+<i class="fas fa-lock-open"></i>
+<i class="far fa-window-close"></i>
+<i class="fas fa-tachometer-alt"></i>
+<i class="fas fa-universal-access"></i>
+----------------------------------
+Application support
+<i class="fab fa-firefox-browser"></i>
+<i class="fab fa-internet-explorer"></i>
+<i class="fab fa-chrome"></i>
+<i class="fab fa-edge"></i>
+<i class="fab fa-safari"></i>
+<i class="far fa-envelope"></i>
 
-
-
-
-
-
-
-
-
-<div class="card telephone">
-  <div class="card-body">
-    <h5 class="card-title">Telephone</h5>
-   <i class="fas fa-phone-square-alt fa-2x"></i>
-  </div>
-</div>
-
-
- <div class="card printer-faxing">
-  <div class="card-body">
-    <h5 class="card-title">Printer/Faxing</h5>
-    <i class="fas fa-print fa-2x"></i>
-  </div>
-</div>
-
-
-
-<div class="card virtual-desktop" >
-  <div class="card-body">
-    <h5 class="card-title">Virtual Desktop</h5>
-    <i class="fas fa-sitemap fa-2x"></i>
-  </div>
-</div>
-</div>
-<br>
-
-<div class="tech"> 
-<div class="card application-support">
-  <div class="card-body">
-    <h5 class="card-title">Application Support</h5>
-    <i class="fas fa-sort-alpha-down fa-2x"></i>
-  </div>
-</div>
-
-
-
-<div class="card internet-connection">
-  <div class="card-body">
-    <h5 class="card-title">Internet Connection</h5>
-    <i class="fas fa-wifi fa-2x"></i>
-  </div>
-</div>
-
-
-<div class="card information-security">
-  <div class="card-body">
-    <h5 class="card-title">Information Security</h5>
-    <i class="fas fa-key fa-2x"></i>
-  </div>
-</div>
-
-
-<div class="card account-management" >
-  <div class="card-body">
-    <h5 class="card-title">Account Management</h5>
-    <i class="fas fa-user-lock fa-2x"></i>
-  </div>
-</div>
-
-
-
-<div class="card database-reporting">
-  <div class="card-body">
-    <h5 class="card-title">Database Reporting</h5>
-    <i class="fas fa-server fa-2x"></i>
-  </div>
-</div>
-
-
-<div class="card employee-service" >
-  <div class="card-body">
-    <h5 class="card-title">Employee Services</h5>
-    <i class="far fa-id-badge fa-2x"></i>
-  </div>
-</div>
-  </div>
+<i class="fab fa-amazon"></i>
+<i class="fab fa-java"></i>
+<i class="fas fa-bug"></i>
+---------------------------------
+Internet connection
+<i class="fas fa-cloud"></i>
+<i class="fas fa-server"></i>
+<i class="fas fa-wifi"></i>
+<i class="fas fa-network-wired"></i>
+-----------------------------------
+Information security
+<i class="fab fa-usb"></i>
+<i class="far fa-flag"></i>
+<i class="fas fa-bug"></i>
+<i class="fas fa-trash-restore"></i>
+<i class="fas fa-fingerprint"></i>
+<i class="fas fa-shield-virus"></i>
+<i class="fas fa-ban"></i>
+-----------------------------------
+Account management
+<i class="far fa-address-book"></i>
+<i class="fas fa-unlock"></i>
+<i class="fas fa-user-edit"></i>
+<i class="fas fa-user-alt-slash"></i>
+----------------------------------
+Database Reporting
+<i class="fas fa-file-excel"></i>
+<i class="fas fa-chart-pie"></i>
+<i class="fas fa-chart-bar"></i>
+<i class="fas fa-chart-area"></i>
+<i class="fas fa-chart-line"></i>
+---------------------------------
+Employee Services
+<i class="fas fa-people-carry"></i>
+<i class="fas fa-plus"></i>

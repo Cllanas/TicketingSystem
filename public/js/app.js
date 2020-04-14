@@ -2522,19 +2522,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       categories: [{
         id: 0,
         identify: 'Desktop',
-        title: 'Desktop Hardware',
+        title: 'Desktop',
         icon: 'fas fa-desktop fa-2x',
         status: false
       }, {
         id: 1,
         identify: "Laptop",
-        title: 'Laptop Hardware',
+        title: 'Laptop',
         icon: 'fas fa-laptop fa-2x',
         status: false
       }, {
@@ -40200,9 +40206,13 @@ var render = function() {
     _vm._v(" "),
     _vm._m(3),
     _vm._v(" "),
-    _vm._m(4),
+    _c("br"),
     _vm._v(" "),
-    _vm._m(5)
+    _c("br"),
+    _vm._v(" "),
+    _c("br"),
+    _vm._v(" "),
+    _c("br")
   ])
 }
 var staticRenderFns = [
@@ -40235,72 +40245,73 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("form", [
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
-          _vm._v("Less than or equal to 5 people affected Priority  low")
+      _c("div", { staticClass: "input-group" }, [
+        _c("div", { staticClass: "input-group-prepend" }, [
+          _c("span", { staticClass: "input-group-text", attrs: { id: "" } }, [
+            _vm._v("Callback number:")
+          ])
         ]),
         _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { type: "text" } })
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("div", { staticClass: "input-group-prepend" }, [
+          _c("span", { staticClass: "input-group-text", attrs: { id: "" } }, [
+            _vm._v("How many people are affected:")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { type: "text" } })
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("div", { staticClass: "input-group-prepend" }, [
+          _c("span", { staticClass: "input-group-text", attrs: { id: "" } }, [
+            _vm._v("Has production stopped?")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { type: "text" } })
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("div", { staticClass: "input-group-prepend" }, [
+          _c("span", { staticClass: "input-group-text", attrs: { id: "" } }, [
+            _vm._v("Time of incident reported to the business:")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { type: "text" } })
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("h5", [
+        _vm._v("Adding additional details improves the quality of service:")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group" }, [
         _c(
           "textarea",
           {
             staticClass: "form-control",
-            attrs: { id: "exampleFormControlTextarea1", rows: "8" }
+            attrs: {
+              id: "exampleFormControlTextarea1",
+              rows: "15",
+              placeholder:
+                "Name of employee(s) affected:\r\nID of employee(s) affected:\r\nLocation of employee(s) affected:"
+            }
           },
           [
             _vm._v(
-              " \r\n    *Callback Number:\r\n    * Location of Employee(s) Affected:\r\n   * Name of Employee(s) Affected:\r\n   * ID of Employee(s) Affected:\r\n    * Additional Details of Request:\r\n    "
-            )
-          ]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("form", [
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
-          _vm._v("greater than or equal to 6 but less than 14 Priority Medium")
-        ]),
-        _vm._v(" "),
-        _c(
-          "textarea",
-          {
-            staticClass: "form-control",
-            attrs: { id: "exampleFormControlTextarea1", rows: "8" }
-          },
-          [
-            _vm._v(
-              " \r\n    *Callback Number:\r\n    *Location of Employee(s) Affected:\r\n    *Name of Employee(s) Affected:\r\n    *ID of Employee(s) Affected:\r\n    *Has Production Stopped:\r\n    *Additional Details of Request:\r\n    "
-            )
-          ]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("form", [
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
-          _vm._v(
-            "Greater than or equal to 15 Priority High All fields are required"
-          )
-        ]),
-        _vm._v(" "),
-        _c(
-          "textarea",
-          {
-            staticClass: "form-control",
-            attrs: { id: "exampleFormControlTextarea1", rows: "8" }
-          },
-          [
-            _vm._v(
-              "\r\n    Callback Number:\r\n    Location of Employee(s) Affected:\r\n    Name of Employee(s) Affected:\r\n    ID of Employee(s) Affected:\r\n    Time of Incident Reported:\r\n    Has Production Stopped:\r\n    Additional Details of Request:\r\n    "
+              "Name of employee(s) affected:\r\n\r\nID of employee(s) affected:\r\n\r\nLocation of employee(s) affected:\r\n\r\nSystem's not listed above: \r\n\r\nError message(s) recieved from system affected:\r\n"
             )
           ]
         )
@@ -53077,14 +53088,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Ticket_Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=script&lang=js& */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _Ticket_Dashboard_vue_vue_type_style_index_0_id_4c218a28_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=style&index=0&id=4c218a28&scoped=true&lang=css& */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=style&index=0&id=4c218a28&scoped=true&lang=css&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_div_class_card_20telephone__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=div&class=card%20telephone */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=div&class=card%20telephone");
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_div_class_card_20telephone__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_div_class_card_20telephone__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_div_class_card_20printer_faxing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=div&class=card%20printer-faxing */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=div&class=card%20printer-faxing");
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_div_class_card_20printer_faxing__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_div_class_card_20printer_faxing__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_div_class_card_20virtual_desktop__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=div&class=card%20virtual-desktop */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=div&class=card%20virtual-desktop");
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_div_class_card_20virtual_desktop__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_div_class_card_20virtual_desktop__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_br__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=br */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=br");
-/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_br__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_br__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_i_class_fas_20fa_power_off__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=i&class=fas%20fa-power-off */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=i&class=fas%20fa-power-off");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_i_class_fas_20fa_power_off__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_i_class_fas_20fa_power_off__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=i&class=far%20fa-keyboard */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=i&class=far%20fa-keyboard");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_i_class_fas_20fa_tv__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=i&class=fas%20fa-tv */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=i&class=fas%20fa-tv");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_i_class_fas_20fa_tv__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_i_class_fas_20fa_tv__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_i_class_fas_20fa_mouse__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=i&class=fas%20fa-mouse */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=i&class=fas%20fa-mouse");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_i_class_fas_20fa_mouse__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_i_class_fas_20fa_mouse__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_4_blockType_i_class_fas_20fa_volume_up__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=4&blockType=i&class=fas%20fa-volume-up */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=4&blockType=i&class=fas%20fa-volume-up");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_4_blockType_i_class_fas_20fa_volume_up__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_4_blockType_i_class_fas_20fa_volume_up__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_5_blockType_i_class_fab_20fa_bluetooth_b__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=5&blockType=i&class=fab%20fa-bluetooth-b */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=5&blockType=i&class=fab%20fa-bluetooth-b");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_5_blockType_i_class_fab_20fa_bluetooth_b__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_5_blockType_i_class_fab_20fa_bluetooth_b__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_6_blockType_i_class_fas_20fa_wifi__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=6&blockType=i&class=fas%20fa-wifi */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=6&blockType=i&class=fas%20fa-wifi");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_6_blockType_i_class_fas_20fa_wifi__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_6_blockType_i_class_fas_20fa_wifi__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_7_blockType_i_class_fas_20fa_network_wired__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=7&blockType=i&class=fas%20fa-network-wired */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=7&blockType=i&class=fas%20fa-network-wired");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_7_blockType_i_class_fas_20fa_network_wired__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_7_blockType_i_class_fas_20fa_network_wired__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_8_blockType_i_class_fab_20fa_microsoft__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=8&blockType=i&class=fab%20fa-microsoft */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=8&blockType=i&class=fab%20fa-microsoft");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_8_blockType_i_class_fab_20fa_microsoft__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_8_blockType_i_class_fab_20fa_microsoft__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_9_blockType_i_class_fab_20fa_linux__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=9&blockType=i&class=fab%20fa-linux */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=9&blockType=i&class=fab%20fa-linux");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_9_blockType_i_class_fab_20fa_linux__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_9_blockType_i_class_fab_20fa_linux__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_10_blockType_i_class_fab_20fa_redhat__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=10&blockType=i&class=fab%20fa-redhat */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=10&blockType=i&class=fab%20fa-redhat");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_10_blockType_i_class_fab_20fa_redhat__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_10_blockType_i_class_fab_20fa_redhat__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_11_blockType_i_class_fab_20fa_centos__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=11&blockType=i&class=fab%20fa-centos */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=11&blockType=i&class=fab%20fa-centos");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_11_blockType_i_class_fab_20fa_centos__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_11_blockType_i_class_fab_20fa_centos__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_12_blockType_i_class_far_20fa_save__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=12&blockType=i&class=far%20fa-save */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=12&blockType=i&class=far%20fa-save");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_12_blockType_i_class_far_20fa_save__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_12_blockType_i_class_far_20fa_save__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_13_blockType_i_class_fas_20fa_laptop__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=13&blockType=i&class=fas%20fa-laptop */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=13&blockType=i&class=fas%20fa-laptop");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_13_blockType_i_class_fas_20fa_laptop__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_13_blockType_i_class_fas_20fa_laptop__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_14_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Ticket_Dashboard.vue?vue&type=custom&index=14&blockType=i&class=far%20fa-keyboard */ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=14&blockType=i&class=far%20fa-keyboard");
+/* harmony import */ var _Ticket_Dashboard_vue_vue_type_custom_index_14_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_Ticket_Dashboard_vue_vue_type_custom_index_14_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_18__);
 
 
 
@@ -53106,13 +53139,35 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* custom blocks */
 
-if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_div_class_card_20telephone__WEBPACK_IMPORTED_MODULE_4___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_div_class_card_20telephone__WEBPACK_IMPORTED_MODULE_4___default()(component)
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_i_class_fas_20fa_power_off__WEBPACK_IMPORTED_MODULE_4___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_0_blockType_i_class_fas_20fa_power_off__WEBPACK_IMPORTED_MODULE_4___default()(component)
 
-if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_div_class_card_20printer_faxing__WEBPACK_IMPORTED_MODULE_5___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_div_class_card_20printer_faxing__WEBPACK_IMPORTED_MODULE_5___default()(component)
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_5___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_1_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_5___default()(component)
 
-if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_div_class_card_20virtual_desktop__WEBPACK_IMPORTED_MODULE_6___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_div_class_card_20virtual_desktop__WEBPACK_IMPORTED_MODULE_6___default()(component)
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_i_class_fas_20fa_tv__WEBPACK_IMPORTED_MODULE_6___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_2_blockType_i_class_fas_20fa_tv__WEBPACK_IMPORTED_MODULE_6___default()(component)
 
-if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_br__WEBPACK_IMPORTED_MODULE_7___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_br__WEBPACK_IMPORTED_MODULE_7___default()(component)
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_i_class_fas_20fa_mouse__WEBPACK_IMPORTED_MODULE_7___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_3_blockType_i_class_fas_20fa_mouse__WEBPACK_IMPORTED_MODULE_7___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_4_blockType_i_class_fas_20fa_volume_up__WEBPACK_IMPORTED_MODULE_8___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_4_blockType_i_class_fas_20fa_volume_up__WEBPACK_IMPORTED_MODULE_8___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_5_blockType_i_class_fab_20fa_bluetooth_b__WEBPACK_IMPORTED_MODULE_9___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_5_blockType_i_class_fab_20fa_bluetooth_b__WEBPACK_IMPORTED_MODULE_9___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_6_blockType_i_class_fas_20fa_wifi__WEBPACK_IMPORTED_MODULE_10___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_6_blockType_i_class_fas_20fa_wifi__WEBPACK_IMPORTED_MODULE_10___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_7_blockType_i_class_fas_20fa_network_wired__WEBPACK_IMPORTED_MODULE_11___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_7_blockType_i_class_fas_20fa_network_wired__WEBPACK_IMPORTED_MODULE_11___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_8_blockType_i_class_fab_20fa_microsoft__WEBPACK_IMPORTED_MODULE_12___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_8_blockType_i_class_fab_20fa_microsoft__WEBPACK_IMPORTED_MODULE_12___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_9_blockType_i_class_fab_20fa_linux__WEBPACK_IMPORTED_MODULE_13___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_9_blockType_i_class_fab_20fa_linux__WEBPACK_IMPORTED_MODULE_13___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_10_blockType_i_class_fab_20fa_redhat__WEBPACK_IMPORTED_MODULE_14___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_10_blockType_i_class_fab_20fa_redhat__WEBPACK_IMPORTED_MODULE_14___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_11_blockType_i_class_fab_20fa_centos__WEBPACK_IMPORTED_MODULE_15___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_11_blockType_i_class_fab_20fa_centos__WEBPACK_IMPORTED_MODULE_15___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_12_blockType_i_class_far_20fa_save__WEBPACK_IMPORTED_MODULE_16___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_12_blockType_i_class_far_20fa_save__WEBPACK_IMPORTED_MODULE_16___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_13_blockType_i_class_fas_20fa_laptop__WEBPACK_IMPORTED_MODULE_17___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_13_blockType_i_class_fas_20fa_laptop__WEBPACK_IMPORTED_MODULE_17___default()(component)
+
+if (typeof _Ticket_Dashboard_vue_vue_type_custom_index_14_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_18___default.a === 'function') _Ticket_Dashboard_vue_vue_type_custom_index_14_blockType_i_class_far_20fa_keyboard__WEBPACK_IMPORTED_MODULE_18___default()(component)
 
 /* hot reload */
 if (false) { var api; }
@@ -53121,9 +53176,9 @@ component.options.__file = "resources/js/components/Ticket_Dashboard.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=div&class=card%20telephone":
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=i&class=fas%20fa-power-off":
 /*!*******************************************************************************************************************!*\
-  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=div&class=card%20telephone ***!
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=0&blockType=i&class=fas%20fa-power-off ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -53132,10 +53187,10 @@ component.options.__file = "resources/js/components/Ticket_Dashboard.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=div&class=card%20printer-faxing":
-/*!************************************************************************************************************************!*\
-  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=div&class=card%20printer-faxing ***!
-  \************************************************************************************************************************/
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=i&class=far%20fa-keyboard":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=1&blockType=i&class=far%20fa-keyboard ***!
+  \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -53143,10 +53198,10 @@ component.options.__file = "resources/js/components/Ticket_Dashboard.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=div&class=card%20virtual-desktop":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=div&class=card%20virtual-desktop ***!
-  \*************************************************************************************************************************/
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=10&blockType=i&class=fab%20fa-redhat":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=10&blockType=i&class=fab%20fa-redhat ***!
+  \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -53154,10 +53209,131 @@ component.options.__file = "resources/js/components/Ticket_Dashboard.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=br":
-/*!*******************************************************************************************!*\
-  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=br ***!
-  \*******************************************************************************************/
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=11&blockType=i&class=fab%20fa-centos":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=11&blockType=i&class=fab%20fa-centos ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=12&blockType=i&class=far%20fa-save":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=12&blockType=i&class=far%20fa-save ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=13&blockType=i&class=fas%20fa-laptop":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=13&blockType=i&class=fas%20fa-laptop ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=14&blockType=i&class=far%20fa-keyboard":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=14&blockType=i&class=far%20fa-keyboard ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=i&class=fas%20fa-tv":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=2&blockType=i&class=fas%20fa-tv ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=i&class=fas%20fa-mouse":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=3&blockType=i&class=fas%20fa-mouse ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=4&blockType=i&class=fas%20fa-volume-up":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=4&blockType=i&class=fas%20fa-volume-up ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=5&blockType=i&class=fab%20fa-bluetooth-b":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=5&blockType=i&class=fab%20fa-bluetooth-b ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=6&blockType=i&class=fas%20fa-wifi":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=6&blockType=i&class=fas%20fa-wifi ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=7&blockType=i&class=fas%20fa-network-wired":
+/*!***********************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=7&blockType=i&class=fas%20fa-network-wired ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=8&blockType=i&class=fab%20fa-microsoft":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=8&blockType=i&class=fab%20fa-microsoft ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=9&blockType=i&class=fab%20fa-linux":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/Ticket_Dashboard.vue?vue&type=custom&index=9&blockType=i&class=fab%20fa-linux ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
