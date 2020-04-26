@@ -2,10 +2,17 @@
 <template>
 <section class="some-area fill-height-or-more">
   <div class="container-fluid back" id="contact-block">
+
     <h1 class="contact-header">Contact Form</h1>
     <div class="contact-space"> 
     <div class="contact-form"> 
-  <form  @submit="checkForm" >
+      
+  <form @submit="checkForm" action="/contact" method="POST"  >
+
+
+<Error :lar="valid_error"></Error>
+
+   <input type="hidden" name="_token" :value="csrf">
     <p v-if="errors.length"><b>Please correct the following error(s):</b>
     <ul>
       <li v-for="error in errors" v-bind:key="error">
@@ -27,7 +34,7 @@
     </div>
   <div class="form-group">
    <label for="validationTextarea font">Feedback <span class="star">*</span></label>
-    <textarea class="form-control "  id="textArea"  placeholder="Please enter text for review" rows="10" v-model="text_area"  @keyup="textAreaValid"  > </textarea>
+    <textarea class="form-control "  id="textArea"  name="textArea" placeholder="Please enter text for review" rows="10" v-model="text_area"  @keyup="textAreaValid"  > </textarea>
   </div>
   <div class="form-group">
   <button type="submit" class="btn btn-outline-success" >Submit</button>
@@ -63,7 +70,13 @@
 </template>
 
 <script>
+import Error from './Error.vue'
 export default {
+
+  components:{
+    Error,
+  },
+   props: ['csrf', 'valid_error'],
   data : function() {
     return{
     errors: [], 
@@ -96,7 +109,19 @@ methods:{
     textArea.setAttribute("style", "border: 3px solid red; outline:none; ");
   }
   e.preventDefault();
+
+
+      /*axios.post('contact', {names: this.name, lasts: this.last, emails: this.email, texts: this.text_area}).then(response => {
+        const data = response.data;
+        this.name = '';
+        this.last = '';
+        this.email = '';
+        this.text_area = '';
+      })
+
+*/
  },
+ 
   emailValid: function(event){
   var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   if(this.email.match(re) && this.email !=''){
@@ -126,6 +151,20 @@ methods:{
     textArea.setAttribute("style", "border: 3px solid red; outline:none; ");
       }
    },
+   /*
+  submit(event) {
+      
+      axios.post('http://127.0.0.1:8000/contact/store', {names: this.name, lasts: this.last, emails: this.email, texts: this.text_area}).then(response => {
+        const data = response.data;
+        this.name = '';
+        this.last = '';
+        this.email = '';
+        this.text_area = '';
+      })
+    },
+    */
+   
+
   }
 }
 </script>

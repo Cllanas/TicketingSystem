@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Validator;
 use Illuminate\Http\Request;
+use App\Contact;
 
 class ContactController extends Controller
 {
@@ -37,6 +38,18 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         //
+        $validated = Validator::make($request->all(), [
+        'name'  => 'required|string|max:255',
+        'last'  => 'required|string|max:255',
+        'email' => 'required|email|max:255',
+        'textArea'  => 'required|alpha_num|alpha|alpha_dash'
+        ]);
+        if ($validated->fails()) {
+            return redirect('contact/create')
+                        ->withErrors($validated)
+                        ->withInput();
+        }
+        return redirect()->action('ContactController@create');
     }
 
     /**
